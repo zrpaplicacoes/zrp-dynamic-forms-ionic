@@ -1,0 +1,41 @@
+{
+  "name": "@ng-dynamic-forms/ui-ionic",
+  "version": "1.4.34",
+  "description": "Ionic UI package for NG Dynamic Forms",
+  "main": "./bundles/ui-ionic.umd.js",
+  "module": "./@ng-dynamic-forms/ui-ionic.es.js",
+  "typings": "./ui-ionic.d.ts",
+  "keywords": [
+    "angular",
+    "angular 2",
+    "dynamic forms",
+    "forms",
+    "ng dynamic forms",
+    "reactive forms",
+    "ionic",
+    "ui"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/udos86/ng-dynamic-forms.git"
+  },
+  "author": {
+    "name" : "Udo Schöfer",
+    "email": "ng2-dynamic-forms@udos86.de",
+    "url" : "https://github.com/udos86/ng-dynamic-forms"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/udos86/ng-dynamic-forms/issues"
+  },
+  "homepage": "https://github.com/udos86/ng-dynamic-forms#readme",
+  "peerDependencies": {
+    "@angular/core": "^4.0.0",
+    "@angular/common": "^4.0.0",
+    "@angular/forms": "^4.0.0",
+    "@ng-dynamic-forms/core": "^1.4.34",
+    "angular2-text-mask": "^8.0.1",
+    "ionic-angular": "^3.0.1",
+    "rxjs": "^5.2.0"
+  }
+}

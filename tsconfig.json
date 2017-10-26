@@ -1,0 +1,13 @@
+{
+  "extends": "../tsconfig.fesm5.json",
+  "files": [
+    "./public_api.ts"
+  ],
+  "angularCompilerOptions": {
+    "annotateForClosureCompiler": true,
+    "flatModuleId": "@ng-dynamic-forms/ui-ionic",
+    "flatModuleOutFile": "ui-ionic.js",
+    "skipTemplateCodegen": true,
+    "strictMetadataEmit": true
+  }
+}
